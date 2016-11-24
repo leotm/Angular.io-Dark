@@ -1,0 +1,33 @@
+@-moz-document domain("angular.io") {
+/**
+ * Angular.io Dark Theme v1.0.0 (24 Nov, 2016)
+ * License: https://creativecommons.org/licenses/by-sa/4.0/
+ */
+
+ html, body {
+ 	background: #263238;
+ }
+
+ input.st-default-search-input,
+ a.nav-title,
+ div.banner,
+ article.l-content-small.grid-fluid.docs-content {
+ 	background: #272822;
+ }
+
+ tbody {
+ 	background: #565754;
+ }
+
+ pre {
+ 	filter: invert(90%);
+ }
+
+ p, li, h1, h2, h3, h4, h5, h6 {
+ 	color: #dfe5e7 !important;
+ }
+
+ a {
+ 	color: #5fa6ec;
+ }
+}
